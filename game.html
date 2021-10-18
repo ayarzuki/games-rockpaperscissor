@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/game.css" rel="stylesheet" />
+    <title>Rock Paper Scissors Games</title>
+  </head>
+  <body>
+    <!-- Header start -->
+    <header>
+      <nav>
+        <div class="back_button">
+          <a href="index.html">
+            <h2><</h2>
+          </a>
+        </div>
+        <div class="title">
+          <div class="title_logo">
+            <img loading="lazy" width="80px" height="80px" src="./assets/img/logo.png" alt="Logo Game" />
+          </div>
+          <div class="title_text">
+            <h1>ROCK PAPER SCRISSORS</h1>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <main class="main">
+        <!-- Section Player 1 -->
+        <div class="player1">
+          <div class="user_title">
+            <h2>PLAYER 1</h2>
+          </div>
+          <div class="user_choice">
+            <button class="choice batu">
+              <img loading="lazy" width="128px" height="128px" src="./assets/img/batu.png" alt="batu" />
+            </button>
+
+            <button class="choice kertas">
+              <img loading="lazy" width="128px" height="128px" src="./assets/img/kertas.png" alt="kertas" />
+            </button>
+
+            <button class="choice gunting">
+              <img loading="lazy" width="128px" height="128px" src="./assets/img/gunting.png" alt="gunting" />
+            </button>
+          </div>
+        </div>
+
+        <!-- Section Versus -->
+        <div id="vs_result" class="versus"></div>
+
+        <!-- Section Com -->
+        <div class="player1">
+          <div class="user_title">
+            <h2>COM</h2>
+          </div>
+          <div class="user_choice">
+            <button class="choice batu">
+              <img loading="lazy" width="128px" height="128px" src="./assets/img/batu.png" alt="batu" />
+            </button>
+
+            <button class="choice kertas">
+              <img loading="lazy" width="128px" height="128px" src="./assets/img/kertas.png" alt="kertas" />
+            </button>
+
+            <button class="choice gunting">
+              <img loading="lazy" width="128px" height="128px" src="./assets/img/gunting.png" alt="gunting" />
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <div class="reset">
+        <button id="reset" type="reset">
+          <img loading="lazy" width="68px" height="68px" src="./assets/img/refresh.png" alt="reset button" />
+        </button>
+      </div>
+    </div>
+
+    <script src="./assets/js/game.js"></script>
+  </body>
+</html>

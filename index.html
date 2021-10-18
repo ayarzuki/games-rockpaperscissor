@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Binar's Game</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/css/styling.css" />
+  </head>
+
+  <body>
+    <!-- PLAY NOW (FIRST MAIN PAGE) -->
+    <div class="main-screen">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand">LOGO</a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active">WORK</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link active">ABOUT ME</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-6 mb-lg-0 auth">
+              <li class="nav-item"><a class="nav-link active" href="#">SIGN UP<a></li>
+              <li class="nav-item"><a class="nav-link active" href="#">LOGIN</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="first-page-content justify-content-center">
+        <h1 class="display-1">PLAY TRADITIONAL GAME</h1>
+        <h5 class="experience">Experience new traditional game play</h5>
+        <a href="game.html">
+          <button class="play-now btn btn-warning"><strong>PLAY NOW</strong></button>
+        </a>
+      </div>
+
+      <div class="scroll-down-button text-center display-10">
+        <a href="#" class="d-block text-decoration-none">THE STORY</a>
+        <img class="scroll-down"  src="./assets/img/scroll down.svg" alt="scroll-down"/>
+      </div>
+    </div>
+
+    <!-- THE GAMES (SECOND MAIN PAGE) -->
+    <section class="the-games">
+      <div class="the-games-content d-flex justify-content-center">
+        <div class="the-games-text justify-content-start">
+          <h5 style="color: white">What's so special?</h5>
+          <h2 style="color: white">THE GAMES</h2>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/img/rockpaperstrategy.jpg" class="d-block w-100" alt="rockpaperscissor" />
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/rockpaperstrategy.jpg" class="d-block w-100 img-fluid" alt="rockpaperscissor" />
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/rockpaperstrategy.jpg" class="d-block w-100 img-fluid" alt="rockpaperscissor" />
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/rockpaperstrategy.jpg" class="d-block w-100 img-fluid" alt="rockpaperscissor" />
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/img/rockpaperstrategy.jpg" class="d-block w-100 img-fluid" alt="rockpaperscissor" />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES (THIRD MAIN PAGE) -->
+    <section class="features d-flex justify-content-end align-items-center">
+        <div class="features-text">
+          <h5 style="color: white">What's so special?</h5>
+          <h2 style="color: white">FEATURES</h2>
+          <div class="feature-list">
+            <div class="timeline">
+              <div class="white-circle"></div>
+              <div class="vertical-line"></div>
+              <div class="black-circle"></div>
+              <div class="black-circle2"></div>
+            </div>
+            <div class="feature-contents mt-5">
+              <p class="feature-contents-text">TRADITIONAL GAMES</p>
+              <p>if you miss your childhood, we provide many traditional games here</p>
+              <p class="feature-contents-text">GAME SUIT</p>
+              <p class="feature-contents-text">TBD</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- SYSTEM REQUIREMENTS (FOURTH MAIN PAGE) -->
+    <section class="sysreq">
+      <h3>Can My Computer Run this game?</h3>
+      <div class="sysreq-content text-white">
+        <h1 style="color: white">SYSTEM REQUIREMENTS</h1>
+        <div class="container">
+          <table class="table table-bordered table-responsive">
+            <tr>
+              <td>
+                <span>os:</span>
+                <p>Windows 7 64-bit only (No OSX support at this time)</p>
+              </td>
+              <td>
+                <span>processor:</span>
+                <p>Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span>memory:</span>
+                <p>4 GB RAM</p>
+              </td>
+              <td>
+                <span>storage:</span>
+                <p>8 GB available space</p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <span>graphics:</span>
+                <p>NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model S)</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOP SCORES (FIFTH MAIN PAGE) -->
+    <section class="top-scores">
+      <div class="container">
+        <div class="row">
+          <div class="col top-scores-text">
+            <h1>top scores</h1>
+            <p>This top score from various games provides on this problem</p>
+            <button class="btn-warning see-more">see more</button>
+          </div>
+          <div class="col card-data justify-content-center">
+            <div class="row row-cols-1 row-cols-md-2 g-4 d-flex flex-column align-items-center card-col">
+              <div class="col">
+                <div class="card isi-card">
+                  <div class="card-body">
+                    <img class="picture" src="./assets/img/image1.jpg" alt="evan-lahti" />
+                    <div class="name">
+                      <p class="orange-name">Evan Lahti</p>
+                      <p class="work-place">PC Gamer</p>
+                    </div>
+                    <div class="clear"></div>
+                    <img src="./assets/img/twitter.svg" alt="twitter" class="twitter-logo" />
+                    <p class="card-text">"One of my gaming highlights of the year".</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">June 18, 2021</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card isi-card card-2">
+                  <div class="card-body">
+                    <img class="picture" src="./assets/img/image2.jpg" alt="Jada Griffin" />
+                    <div class="name">
+                      <p class="orange-name">Jada Griffin</p>
+                      <p class="work-place">Nerdreactor</p>
+                    </div>
+                    <div class="clear"></div>
+                    <img src="./assets/img/twitter.svg" alt="twitter" class="twitter-logo" />
+                    <p class="card-text">"The next big thing in the world of streaming and survival games".</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">July 10, 2021</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card isi-card">
+                  <div class="card-body">
+                    <img class="picture" src="./assets/img/image3.jpg" alt="evan-lahti" />
+                    <div class="name">
+                      <p class="orange-name">Aarons Williams</p>
+                      <p class="work-place">Uproxx</p>
+                    </div>
+                    <div class="clear"></div>
+                    <img src="./assets/img/twitter.svg" alt="twitter" class="twitter-logo" />
+                    <p class="card-text">"Snoop Dogg Playing the Wildly Entertaining 'SOS' is Ridiculous".</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">December 24, 2018</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER (SIXTH MAIN PAGE) -->
+    <section class="newsletter">
+      <div class="container container-subs">
+        <div class="row d-flex align-items-center">
+          <div class="col col1">
+            <img src="./assets/img/jimat.png" alt="gamnbar-jimat" />
+          </div>
+          <div class="col col2">
+            <h3>Want to stay in touch?</h3>
+            <h1>NEWSLETTER SUBSCRIBE</h1>
+            <p>in order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don't spam.</p>
+            <form action="#" class="d-flex justify-content-between form">
+              <label for="email">Your email address</label>
+              <input type="email" placeholder="youremail@binar.co.id" id="email" />
+              <button class="btn btn-warning">Subscribe now</button>
+            </form>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-7 col-menu1 d-flex justify-content-end align-items-center">
+              <ul class="d-flex unlist">
+                <li><a href="#">main</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">game features</a></li>
+                <li><a href="#">system requirements</a></li>
+                <li><a href="#">quotes</a></li>
+              </ul>
+            </div>
+            <div class="col col-menu2 d-flex justify-content-end align-items-center">
+              <img src="./assets/img/facebook.svg" alt="facebook-logo" />
+              <img src="./assets/img/twitter.svg" alt="twitter-logo" />
+              <img src="./assets/img/Vector.svg" alt="youtube-logo" />
+              <img src="./assets/img/twitch.svg" alt="twitch-logo" />
+            </div>
+            <hr />
+            <div class="container">
+              <div class="row">
+                <div class="col col-last1">
+                  <p>&copy; 2018 Your Games, Inc. All Rights Reserved</p>
+                </div>
+                <div class="col col-last2">
+                  <p>privacy policiy | terms of services | code of conduct</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
